@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    color:hsla(0, 0%, 100%, 0.75);
+    background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.box-2{
+    display: flex;
+    justify-content: center;
+   align-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+   border-radius: 10px 10px 10px 10px;
+   margin: 100px 70px 100px;
+   background-color:hsla(0, 0%, 100%, 0.75);
+  
+
+}
+
+.container-1{
+   
+    background-color: hsl(31, 77%, 52%);
+    height: 375px;
+    width:375px;
+    padding: 25px 20px 25px;
+    border-radius: 5px 0px 0px 5px;
+    /*margin-left: 100px;*/
+    box-sizing: content-box;
+  
+
+}
+.container-2{
+    background-color: hsl(184, 100%, 22%);
+    height: 375px;
+    width:375px;
+    padding: 25px 20px 25px;
+    line-height: 20px;
+    box-sizing: content-box;
+
+}
+.container-3{
+    background-color: hsl(179, 100%, 13%);
+    height: 375px;
+    width:375px;
+    /*margin-right: 200px;*/
+    padding: 25px 20px 25px;
+    border-radius: 0px 5px 5px 0px;
+    line-height: 20px;
+    box-sizing: content-box;
+}
+
+.button-1{
+  background-color:hsla(0, 0%, 99%) ;  
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  color:hsl(31, 77%, 52%);
+  background-color:hsl(0, 0%, 95%);
+  line-height: 15px;
+}
+.button-2{
+    background-color:hsla(0, 0%, 99%) ;  
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  color: hsl(184, 100%, 22%);
+  background-color:hsl(0, 0%, 95%) ;
+  line-height: 15px;
+}
+.button-3{
+    background-color:hsla(0, 0%, 99%) ;  
+  height: 45px;
+  border-radius: 35px;
+  padding: 10px 10px 10px 10px;
+  color:hsl(179, 100%, 13%);
+  background-color:hsl(0, 0%, 95%) ;
+  line-height: 15px;
+}
+
+h2{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    font-weight: 400px;
+    color:hsl(0, 0%, 95%)
+}
+
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
